@@ -1,16 +1,52 @@
-# resume_builder_task
+# Resume Builder App
 
-A new Flutter project.
+Resume Builder App is a Flutter application designed to allow users to view, update, delete, reorder information about resume and it's details. It utilizes the provider state management library for efficient state handling and hive for store resumes.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Create a resume using add information
+- Reorder resume items
+- Preview resume
+- Save resume 
+- View a list of Resume 
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK : 3.22.1
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/SartilaGajera/resume_builder.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd resume_builder
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+5. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
+
+## Usage
+
+- Upon launching the app, you'll be presented with form to add information.
+- Tap on a preview resume to show resume
+- Tap on a save to save resume
+- Tap on a view all resumes to show all resume
+
+## State Management
+
+This app uses provider for state management, which provides a simple and efficient way to manage state and update UI components.
